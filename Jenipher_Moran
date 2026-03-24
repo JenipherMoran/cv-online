@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CV - Jenipher Moran</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .sidebar {
+      background: #1e1e2f;
+      color: white;
+      padding: 30px;
+    }
+
+    .sidebar h1 {
+      margin-top: 0;
+      font-size: 26px;
+    }
+
+    .sidebar p {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .section-title {
+      margin-top: 30px;
+      font-size: 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .main {
+      padding: 30px;
+    }
+
+    .main h2 {
+      color: #1e1e2f;
+      margin-bottom: 10px;
+    }
+
+    .job {
+      margin-bottom: 20px;
+    }
+
+    .job h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .job span {
+      font-size: 13px;
+      color: gray;
+    }
+
+    .job p {
+      margin-top: 5px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e0e7ff;
+      color: #3730a3;
+      padding: 5px 10px;
+      border-radius: 6px;
+      margin: 5px 5px 0 0;
+      font-size: 12px;
+    }
+
+    @media(max-width: 768px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="sidebar">
+    <h1>Jenipher Moran</h1>
+    <p><strong>Automation & Contact Center Specialist</strong></p>
+
+
+<p>
+  Profesional con más de 7 años de experiencia en automatización IVR,
+  optimización de procesos y soporte técnico en entornos de contact center.
+</p>
+
+<div class="section-title">Habilidades</div>
+<ul>
+  <li>Automatización IVR</li>
+  <li>SQL Server</li>
+  <li>Optimización de procesos</li>
+  <li>Gestión de tickets</li>
+  <li>Customer Experience</li>
+</ul>
+
+<div class="section-title">Herramientas</div>
+<ul>
+  <li>Vocalcom</li>
+  <li>Navicat</li>
+  <li>CRM Platforms</li>
+</ul>
+
+<div class="section-title">Idiomas</div>
+<ul>
+  <li>Español (Nativo)</li>
+  <li>Inglés (Intermedio)</li>
+</ul>
+
+
+  </div>
+
+  <div class="main">
+
+<h2>Experiencia Profesional</h2>
+
+<div class="job">
+  <h3>Allied Global</h3>
+  <span>Automation Specialist</span>
+  <p>
+    Diseño y optimización de flujos IVR, automatización de procesos y mejora
+    de eficiencia operativa en contact center.
+  </p>
+</div>
+
+<div class="job">
+  <h3>Banco Industrial</h3>
+  <span>Soporte Técnico</span>
+  <p>
+    Gestión de incidencias, soporte técnico y mantenimiento de sistemas
+    orientados a servicio al cliente.
+  </p>
+</div>
+
+<div class="job">
+  <h3>OLMECA</h3>
+  <span>Customer Support</span>
+  <p>
+    Atención al cliente, resolución de problemas y soporte en operaciones.
+  </p>
+</div>
+
+<h2>Educación</h2>
+<div class="job">
+  <h3>Universidad Galileo</h3>
+  <span>Licenciatura en Tecnología y Administración de Telecomunicaciones</span>
+
+  </div>
+
+</div>
+
+</body>
+</html>
